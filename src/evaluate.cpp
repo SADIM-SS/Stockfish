@@ -904,7 +904,7 @@ std::string Eval::trace(const Position& pos) {
      << "   Passed pawns | " << Term(PASSED)
      << "          Space | " << Term(SPACE)
      << "----------------+-------------+-------------+-------------\n"
-     << "          Total | " << Term(TOTAL);
+     << "          Total | " << Terms(TOTAL);
 
   ss << "\nTotal Evaluation: " << to_cp(v) << " (white side)\n";
 
